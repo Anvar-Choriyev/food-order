@@ -1,0 +1,32 @@
+.cart{
+  padding: 1rem;
+}
+
+.item-list{
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 2rem;
+  max-height: 40rem;
+  overflow: auto;
+}
+
+.total-price{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1.5rem;
+}
+
+.actions{
+  
+text-align: right;
+}
+
+.actions button {
+  margin-left: 1rem;
+}
+
+.actions button[type="button"]{
+  background-color: red;
+}
